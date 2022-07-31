@@ -10,7 +10,15 @@ class CategortItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(8),
-      child: Text(title),
+      child: Text(
+        title,
+        style: TextStyle(
+          fontFamily: 'RobotoCondensed',
+          fontSize: 25,
+          fontStyle: FontStyle.italic,
+          color: Color.fromRGBO(25, 25, 25, 0.7),
+        ),
+      ),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [

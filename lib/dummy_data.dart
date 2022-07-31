@@ -18,4 +18,23 @@ final Dummy_data = [
     title: 'Hawaiian',
     bg: Colors.indigo,
   ),
+  Category(
+    id: 'c4',
+    title: 'Newari',
+    bg: Colors.green,
+  ),
+  Category(
+    id: 'c5',
+    title: 'Chinese',
+    bg: Colors.deepOrange,
+  ),
+  Category(
+    id: 'c6',
+    title: 'Thai',
+  ),
+  Category(
+    id: 'c7',
+    title: 'Japanese',
+    bg: Colors.transparent,
+  ),
 ];
