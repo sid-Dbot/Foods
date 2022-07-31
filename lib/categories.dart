@@ -11,6 +11,7 @@ class Categories extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Categories Page')),
       body: GridView(
+          padding: EdgeInsets.all(7),
           children: Dummy_data.map((data) => CategortItem(
                 data.title,
                 data.bg,
