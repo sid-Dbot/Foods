@@ -8,6 +8,7 @@ class CategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: title,
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
         canvasColor: bg_color.withOpacity(0.9),
