@@ -10,7 +10,7 @@ class CategoryScreen extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
-        canvasColor: bg_color.withOpacity(0.7),
+        canvasColor: bg_color.withOpacity(0.9),
       ),
       home: Scaffold(
         appBar: AppBar(
