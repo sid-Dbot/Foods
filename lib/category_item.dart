@@ -3,14 +3,15 @@ import './category_screen.dart';
 
 class CategortItem extends StatelessWidget {
   final String title;
+  final String id;
   final Color colors;
 
-  CategortItem(this.title, this.colors);
+  CategortItem(this.title, this.colors, this.id);
 
   void selectCategory(BuildContext ctx) {
     Navigator.of(ctx).push(MaterialPageRoute(
       builder: (_) {
-        return CategoryScreen(title);
+        return CategoryScreen(title, colors, id);
       },
     ));
   }

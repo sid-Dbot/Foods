@@ -15,6 +15,7 @@ class Categories extends StatelessWidget {
           children: Dummy_data.map((data) => CategortItem(
                 data.title,
                 data.bg,
+                data.id,
               )).toList(),
           gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,
