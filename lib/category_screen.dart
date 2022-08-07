@@ -7,7 +7,7 @@ class CategoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('New page'),
+        title: Text(title),
       ),
       body: Center(child: Text('PAGE')),
     );
