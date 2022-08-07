@@ -7,18 +7,12 @@ class CategoryScreen extends StatelessWidget {
   CategoryScreen(this.title, this.bg_color, this.id);
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: title,
-      theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
-        canvasColor: bg_color.withOpacity(0.9),
+    return Scaffold(
+      backgroundColor: bg_color,
+      appBar: AppBar(
+        title: Text('$title Foods'),
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('$title Foods'),
-        ),
-        body: Center(child: Text("This page displays $title food items")),
-      ),
+      body: Center(child: Text("This page displays $title food items")),
     );
   }
 }
