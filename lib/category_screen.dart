@@ -9,7 +9,7 @@ class CategoryScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('New page'),
       ),
-      body: Center(child: Text(title)),
+      body: Center(child: Text("This the page displays $title food items")),
     );
   }
 }
