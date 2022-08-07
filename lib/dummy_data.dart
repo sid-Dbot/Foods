@@ -35,6 +35,6 @@ final Dummy_data = [
   Category(
     id: 'c7',
     title: 'Japanese',
-    bg: Colors.transparent,
+    bg: Colors.white54,
   ),
 ];
